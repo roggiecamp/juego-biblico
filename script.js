@@ -9,7 +9,7 @@ function mostrarPregunta() {
     document.getElementById("pregunta").innerHTML = `<p>${preguntaActual.pregunta}</p>`;
 
     const opcionesHTML = preguntaActual.opciones.map((opcion, index) => `
-        <button onclick="verificarRespuesta(${index + 1}, ${preguntaActual.respuesta_correcta})">
+        <button onclick="verificarRespuesta('${opcion}', ${preguntaActual.respuesta_correcta})">
             ${opcion}
         </button>
     `).join("");
