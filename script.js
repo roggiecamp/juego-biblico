@@ -15,6 +15,7 @@ function mostrarPregunta() {
     `).join("");
 
     document.getElementById("opciones").innerHTML = opcionesHTML;
+    document.getElementById("resultado").innerHTML = ""; // Limpiar resultado anterior
 }
 
 function verificarRespuesta(respuestaUsuario, respuestaCorrecta) {
