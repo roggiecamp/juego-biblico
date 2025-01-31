@@ -3,7 +3,7 @@ const preguntas = {
         {
             "pregunta": "¿Quién fue el primer hombre creado por Dios?",
             "opciones": ["Adán", "Noé", "Abraham", "Moisés"],
-            "respuesta_correcta": "Adán"
+            "respuesta_correcta": "1"
         },
         {
             "pregunta": "¿Quién fue la madre de Jesús?",
